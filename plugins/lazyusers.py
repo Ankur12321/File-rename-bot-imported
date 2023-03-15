@@ -1,9 +1,9 @@
 import os 
 from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup)
-token = os.environ.get('TOKEN','5971971751:AAEJYE9EGQw7RvtLE1dluzSifgLEy-HlvL4')
+token = os.environ.get('TOKEN','')
 botid = token.split(':')[0]
-ADMIN = int(os.environ.get("ADMIN", "1987289639"))
+ADMIN = int(os.environ.get("ADMIN", ""))
 
 from helper.database import botdata, find_one, total_user,getid
 
