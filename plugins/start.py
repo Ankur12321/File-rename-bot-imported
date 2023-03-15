@@ -124,7 +124,7 @@ async def send_doc(client, message):
         daily = user_deta["daily"]
         user_type = user_deta["usertype"]
     except:
-        await message.reply_text(text=f"",
+        await message.reply_text(text=f"Hello dear {message.from_user.first_name} \n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some telegram files which are workking in background.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\nDm To @Bamel_Shab For Premium Subscription",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://telegram.me/Bamel_Shab')],
                                                                      [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@BamelMoviesOfficial')],
